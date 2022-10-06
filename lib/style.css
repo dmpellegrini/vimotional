@@ -9,3 +9,25 @@ h1 {
 h2 {
   text-align: center;
 }
+
+.arrowGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+
+}
+
+.arrows {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.currentMove {
+
+}
