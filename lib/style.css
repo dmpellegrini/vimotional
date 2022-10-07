@@ -20,15 +20,15 @@ body {
 }
 
 #logo {
-  height: 125px;
-  width: 125px;
+  height: 100px;
+  width: 100px;
 }
 
 #titleText {
-  font-size: 45px;
+  font-size: 35px;
+  font-style: italic;
   padding: 0;
   margin: 0;
-  /* margin-bottom: 5px; */
 }
 
 h1 {
@@ -37,20 +37,28 @@ h1 {
 
 h2 {
   text-align: center;
+  font-size: 20px;
 }
 
 h3 {
   text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
 }
 
 .scoreBoard {
-  margin-bottom: 10px; 
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 13px;
 }
 
 .scoreElmnt {
   margin: 0;
   padding: 0;
-
 }
 
 .arrowGrid {
