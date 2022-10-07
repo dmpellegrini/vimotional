@@ -28,6 +28,14 @@ h2 {
   margin: 0;
 }
 
-.currentMove {
+.yellow {
+  background-color: yellow;
+}
+
+.green {
   background-color: green;
+}
+
+.red {
+  background-color: red;
 }
