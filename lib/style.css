@@ -2,12 +2,55 @@
 /*   outline: solid red; */
 /* } */
 
+/* p { */
+/*   margin: 0; */
+/*   padding: 0; */
+/* } */
+
+body {
+  font-family: menlo;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0; 
+  margin: 0;
+}
+
+#logo {
+  height: 125px;
+  width: 125px;
+}
+
+#titleText {
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
+  /* margin-bottom: 5px; */
+}
+
 h1 {
   text-align: center;
 }
 
 h2 {
   text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.scoreBoard {
+  margin-bottom: 10px; 
+}
+
+.scoreElmnt {
+  margin: 0;
+  padding: 0;
+
 }
 
 .arrowGrid {
@@ -28,6 +71,10 @@ h2 {
   margin: 0;
 }
 
+.arrows {
+  border: solid black;
+}
+
 .yellow {
   background-color: yellow;
 }
@@ -38,4 +85,8 @@ h2 {
 
 .red {
   background-color: red;
+}
+
+#center {
+  border: none;
 }

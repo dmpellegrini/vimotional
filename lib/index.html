@@ -6,11 +6,15 @@
     <script src='script.js' defer></script>
   </head>
   <body>
-    <h1>Vimotional</h1>
+    <div id='title'>
+      <img src="../images/vimLogo.png" alt="Vim Logo" id='logo'>
+      <p id='titleText'>otional</p>
+    </div>
+    <!-- <h1>Vimotional</h1> -->
     <h2>A fun way to explore your Vim-motions</h2>
     <div class='scoreBoard'>
-      <h2 id="timer"></h2>
-      <h2 id="score"></h2>
+      <h2 class='scoreElmnt' id="timer">Time: 00</h2>
+      <h2 class='scoreElmnt' id="score">Score: 0000</h2>
     </div>
     <div class='gameSpace'>
       <div class='arrowGrid'>
@@ -18,13 +22,13 @@
         <p class='grid arrows' id='move_up'>(k)up</p>
         <p class='grid'></p>
         <p class='grid arrows' id='move_left'>left(h)</p>
-        <p class='grid'></p>
+        <p class='grid arrows' id='center'></p>
         <p class='grid arrows' id='move_right'>(l)right</p>
         <p class='grid'></p>
         <p class='grid arrows' id='move_down'>down(j)</p>
         <p class='grid'></p>
       </div>
-      <h2 id='prompt'></h2>
+      <h3 id='prompt'></h2>
     </div>
   </body>
 </html>
